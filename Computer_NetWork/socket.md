@@ -3,6 +3,7 @@ Socket 是应用程序和操作系统网络协议栈之间的接口，让程序�
 介于应用层和传输层之间，
 
 # TCP Socket 通信模型
+如下图所示：![TCP套接字通信过程](Computer_NetWork\images\image.png)
 以这个模型举例
 示例代码：
 ## 服务器端
@@ -53,19 +54,6 @@ conn.close()
 server_socket.close()
 ```
 
-第一步：创建 Socket
-server_socket = socket.socket()
-第二步：绑定地址
-server_socket.bind(("0.0.0.0",8080))
-ip是 0.0.0.0 代表监听本机所有的ip地址，端口号为8080
-第三步：进入监听状态
-server_socket.listen()
-第四步：接受连接
-conn, addr = server_socket.accept()
-返回的 conn 是连接的新 Socket
-addr 是 客户端 ip 地址和端口号
-第五步：接受客户端数据
-data = conn.recv(1024) %1024指的是最大读取的字节
 
 ## 客户端
 
