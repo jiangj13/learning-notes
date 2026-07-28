@@ -48,26 +48,30 @@ git pull 则相反，将 GitHub 内文件下载到本地仓库
 <!-- 此段内容可见 -->
 ```
 ## 写代码
-使用 `command()`
-```python
-`
+例如 使用 `command()`
+
+符号```python
+` 
 ```
-符号
 适合命令、变量和函数名
+
 或者多行代码块
+符号```python
+```
+```
 
 ```python
 code row1
 code row2
 ```
 ## 插入图片 & 流程图
-图片如下
+图片插入方法如下:
 ```markdown
 ![socket流程图](./images/socket_flow.png)
 ![图片说明](图片路径)
 ```
 
-流程图如下
+流程图如下:
 ```
 ```mermaid
 流程图代码
