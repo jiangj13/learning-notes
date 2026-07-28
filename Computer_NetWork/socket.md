@@ -3,7 +3,7 @@ Socket 是应用程序和操作系统网络协议栈之间的接口，让程序�
 介于应用层和传输层之间，
 
 # TCP Socket 通信模型
-如下图所示：![TCP套接字通信过程](Computer_NetWork\images\image.png)
+如下图所示：![TCP套接字通信过程](./images/套接字流程.png)
 以这个模型举例
 示例代码：
 ## 服务器端
