@@ -50,13 +50,15 @@ git pull 则相反，将 GitHub 内文件下载到本地仓库
 ## 写代码
 例如 使用 `command()`
 
-符号```python
+符号 
+```python
 ` 
 ```
 适合命令、变量和函数名
 
 或者多行代码块
-符号````python
+符号
+````python
 ```
 ````
 
