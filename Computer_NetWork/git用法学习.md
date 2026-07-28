@@ -5,19 +5,12 @@ Git 分为四个重要区域，四个重要指令
 工作区 暂存区 本地仓库 远程仓库
 add commit push pull
 
-工作区 Working Directory
-
-        ↓ git add
-
-暂存区 Stage / Index
-
-        ↓ git commit
-
-本地仓库 Local Repository
-
-        ↓ git push
-
-远程仓库 GitHub
+```mermaid
+flowchart LR
+    A[工作区 Working Directory] -- git add --> B[暂存区 Stage]
+    B -- git commit --> C[本地仓库 Local Repository]
+    C -- git push --> D[远程仓库 GitHub]
+```
 
 # 工作区
 正在编辑的文档
