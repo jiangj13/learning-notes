@@ -23,6 +23,7 @@ git add 可以将文件由工作区放入暂存区
 
 ## 本地仓库
 git commit 可以将文件由暂存区提交到本地仓库（只在本地的仓库）
+commit 时需要加上说明
 
 ## 远程仓库
 git push 可以将本地仓库内文件上传到 GitHub
@@ -73,9 +74,9 @@ code row2
 ![图片说明](图片路径)
 ````
 
-流程图如下:
+流程图代码如下:
 ````
 ```mermaid
-流程图代码
+area for code of flowchart
 ```
 ````
