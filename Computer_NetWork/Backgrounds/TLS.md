@@ -121,7 +121,7 @@ IPsec 工作在网络层：
 # 5. IPsec 封装过程
 
 
-![](ipsec_format.png)
+![](../ipsec_format.png)
 
 IPsec 不修改原始 IP 首部。
 
